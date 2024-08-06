@@ -10,6 +10,9 @@ This is a classic Snake Game implemented using HTML, CSS, and JavaScript. The ga
 - **Change Grid Size**: Users can change the size of the grid to vary the difficulty and style of the game.
 - **Mobile-Friendly**: Includes buttons for controlling the snake on mobile devices.
 
+## Demo
+- https://snake-game-aryan-kohli.netlify.app/
+
 ## Getting Started
 
 To get started with the Snake Game, simply clone the repository and open `index.html` in your browser.
