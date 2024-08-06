@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+body{
+   
+    background-color: black;
+    height: 100vh;
+}
+.headdiv{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* gap:-35px; */
+    /* margin-top: -15px; */
+}
+#scorediv{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Source Serif 4", serif;
+    text-shadow: 0px 0px 25px #67ca88;
+}
+#highscorediv{
+    color: rgb(219, 255, 249);
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: "Source Serif 4", serif;
+    text-shadow: 0px 0px 25px #7f76ff;
+}
+.headdiv h1{
+    color:rgb(159, 246, 178);
+    font-weight: 600;
+    font-size: 3rem;
+    font-family: "Source Serif 4", serif;
+    text-shadow: 0px 0px 25px #67ca88;
+}
+.headdiv h2{
+    color:rgb(244, 162, 150);
+    font-weight: 600;
+    font-size: 3rem;
+    font-family: "Source Serif 4", serif;
+    text-shadow: 0px 0px 25px #67ca88;
+}
+.restartdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 15px; */
+}
+#restartbtn{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 254, 254);
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    border:2px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #f8fffb;
+    cursor: pointer;
+}
+#board{
+    display: grid;
+    grid-template-columns: repeat(25, 1fr);
+    grid-template-rows: repeat(25, 1fr);
+    /* gap: 10px; */
+    margin: 0 auto;
+    /* margin-top:-15px; */
+    width: 65vh;
+    box-shadow: 0px 0px 25px #67ca88;
+    height: 65vh;
+    /* max-width: 100vw; */
+    margin-top: 20px;
+    border: 2px solid white;
+}
+#mobileButtons{
+    display: none   ;
+}
+@media screen and (max-width: 450px){
+    #board{
+        width: 70vw;
+        height: 70vw;
+    }
+    .endline{
+        font-size: 1.5rem;
+    }
+        #highscorediv {
+            font-size: 1.5rem;
+        }
+        #scorediv {
+            font-size: 1.3rem;
+        }
+    #mobileButtons{
+        display:flex;
+    }
+    
+}
+.head{
+    border: 3px solid black;
+    background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+}
+.speedDiv{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 10px;
+    /* margin-top: -25px; */
+}
+#speed{
+    /* width: 14%; */
+    background-color: black;
+    color: wheat;
+}
+#anykey h6{
+    font-size: 0.5 rem;
+    color: aliceblue;
+}
+.gridhead{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Source Serif 4", serif;
+    text-shadow: 0px 0px 25px #67ca88;
+}
+.btn{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 254, 254);
+    font-family: "Source Serif 4", serif;
+    font-size: 1rem;
+    margin-top: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border:2px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #f8fffb;
+    cursor: pointer;
+}
+.labelSpeed{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Source Serif 4", serif;
+    text-shadow: 0px 0px 25px #67ca88;
+}
+.food{
+    background-color: rgb(252, 0, 0);
+    border:4px solid red;
+border-radius:137% 10px 22px 54%;
+}
+.body{
+    background-color: rgb(143, 242, 143);
+        border: 3px solid black;
+        border-radius: 52% 48% 50% 50% / 100% 100% 0% 0%;
+}
+.endline{
+    color: white;
+    font-size: 4rem;
+}
+.displaynone{
+    display: none !important;
+}
+.endlineDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* display: none; */
+}
